@@ -5,5 +5,6 @@ Public hero(){
 
 public void moreInfo(){
 	HERO IS A GUY. HERO IS SHORT. HERO IS UGLY. HERO IS HEROOOOOOOO!
+	string weapon = "Potatomasher"
 }
 
