@@ -74,9 +74,16 @@ namespace Calculator
 
         private static void inputTwoNumbers(Calculator calc)
         {
-            Console.WriteLine("Input two numbers");
-            var input1 = Console.ReadLine();
-            var input2 = Console.ReadLine();
+            string input1 = null;
+            string input2 = null;
+            do
+            {
+                Console.WriteLine("Input two numbers");
+                input1 = Console.ReadLine();
+                input2 = Console.ReadLine();
+                //Console.WriteLine(input1.GetType() + input1);
+            } while (input1 == "" || input2 == "");
+            
             calc.setFirstAndSecond(Convert.ToInt32(input1), Convert.ToInt32(input2));
         }
     }
