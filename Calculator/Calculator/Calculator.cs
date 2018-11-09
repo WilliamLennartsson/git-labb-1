@@ -3,18 +3,9 @@ namespace Calculator
 {
     public class Calculator
     {
-        private float firstNumber;
-        public float FirstNumber
-        {
-            get { return firstNumber; }
-            set { firstNumber = value; }
-        }
-        private float secondNumber;
-        public float SecondNumber
-        {
-            get { return secondNumber; }
-            set { secondNumber = value; }
-        }
+        
+        public int FirstNumber { get; set; }
+        public int SecondNumber { get; set; }
         float numberInMemory;
 
         public Calculator()
@@ -36,13 +27,12 @@ namespace Calculator
                 First number: {0}
                 Second number: {1}
                 In memory: {2}";
-            string result = string.Format(pattern, FirstNumber, SecondNumber, numberInMemory);
-            return result;
+            return string.Format(pattern, FirstNumber, SecondNumber, numberInMemory);
         }
 
         public float multiplyNumbers()
         {
-            return firstNumber * secondNumber;
+            return FirstNumber * SecondNumber;
         }
 
         public void setFirstAndSecond(int first, int second)
@@ -58,17 +48,16 @@ namespace Calculator
 
         public float sumInbetween()
         {
-            if (firstNumber > secondNumber)
+            int a = FirstNumber;
+            int b = SecondNumber;
+            if (FirstNumber > SecondNumber)
             {
-                var temp = firstNumber;
-                firstNumber = secondNumber;
-                secondNumber = temp;
+                a = SecondNumber;
+                b = FirstNumber;
             }
-            int first = Convert.ToInt32(firstNumber);
-            int second = Convert.ToInt32(secondNumber);
-
+            
             int sum = 0;
-            for (int i = first; i < second + 1; i++)
+            for (int i = a; i < b + 1; i++)
             {
                 sum += i;
             }
