@@ -2,4 +2,10 @@ Public hero(){
 	if (krydd) {
 		With a tophat and a brand new bike he's cooler than ever. Like, super cool
 	}
+	moreInfo();
+}
+
+public void moreInfo(){
+	HERO IS A GUY. HERO IS SHORT. HERO IS UGLY. HERO IS HEROOOOOOOO!
+	string weapon = "Potatomasher"
 }
