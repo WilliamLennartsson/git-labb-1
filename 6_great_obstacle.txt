@@ -1,2 +1,1 @@
-Obstacle = new BigRock();
-
+Obstacle = new BigRock(height: '30-slak');
