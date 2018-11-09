@@ -2,6 +2,7 @@ Public hero(){
 	if (krydd) {
 		With a tophat and a brand new bike he's cooler than ever. Like, super cool
 	}
+	With a shiny tophat and a brand new bike he's cooler than ever. Like, super cool
 	moreInfo();
 }
 
