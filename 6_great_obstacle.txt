@@ -1,2 +1,2 @@
-Obstacle = new BigRock();
+Obstacle = new BigRock(Vector3(10,10,10));
 
