@@ -1,2 +1,4 @@
-Obstacle = new BigRock(100, 100);
+Obstacle = new BigRock(Vector3(10,10,10));
 
+Obstacle = new BigRock(height: '30-slak');
+Obstacle = new BigRock(100, 100);

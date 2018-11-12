@@ -1,2 +1,5 @@
 High mountains and grassy grass as far as the eye can smell. Ney, as both eyes can smell.
 The hero is riding much horse to find a hidden table. But not any table, the babel tabel for SQL injections.
+FIND happiness IN 'SQL development career'
+no results found in DB
+FLIP TABLE
